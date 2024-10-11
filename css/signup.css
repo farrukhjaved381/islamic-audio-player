@@ -1,0 +1,80 @@
+body {
+    margin: 20px 20px;
+    padding: 0;
+    background-color: green;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gradient-custom-3 {
+    background: linear-gradient(to right,  green,  green);
+}
+
+.gradient-custom-4 {
+   background-color: black;
+}
+.gradient-custom-4:hover{
+    background-color: green;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-outline {
+    position: relative;
+}
+
+.form-outline .form-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 0.75rem;
+    pointer-events: none;
+    font-size: 0.9rem;
+    color:  6c757d;
+    transition: all 0.2s ease;
+}
+
+.form-outline input.form-control {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    height: 3rem;
+    border-radius: 10px;
+    box-shadow: none;
+    border-color:  ced4da;
+}
+
+.form-outline input.form-control:focus {
+    border-color:  80bdff;
+    box-shadow: 0 0 0 0.2rem green;
+}
+
+.form-outline input.form-control:focus + .form-label,
+.form-outline input.form-control:not(:placeholder-shown) + .form-label {
+    top: -1rem;
+    font-size: 0.75rem;
+    color:  495057;
+}
+
+.btn {
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 10px 30px;
+    transition: background 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background:  6bc47d;
+    color:  #ffff;
+}
+.login-link{
+    color: black;
+}
+.login-link:hover
+{
+    color: green;
+}
+
+
